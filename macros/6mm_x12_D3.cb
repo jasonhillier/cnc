@@ -4,7 +4,7 @@
     <layer name="Default" color="127,255,0">
       <objects>
         <circle id="9" d="12">
-          <ModificationCount>3</ModificationCount>
+          <ModificationCount>5</ModificationCount>
           <mat m="Identity" />
         </circle>
       </objects>
@@ -12,7 +12,7 @@
     </layer>
   </layers>
   <MachiningOptions>
-    <OutFile>C:\Users\j450n\Documents\CAM\{$cbfile.name}.nc</OutFile>
+    <OutFile>.\{$cbfile.name}.nc</OutFile>
     <Stock>
       <PMin>0,0</PMin>
       <PMax>0,0</PMax>
@@ -24,7 +24,7 @@
     <part Name="Part1">
       <machineops>
         <pocket Enabled="true">
-          <TargetDepth state="Value">-1.5</TargetDepth>
+          <TargetDepth state="Value">-2.5</TargetDepth>
           <DepthIncrement state="Value">0.3</DepthIncrement>
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">DepthFirst</CutOrdering>
