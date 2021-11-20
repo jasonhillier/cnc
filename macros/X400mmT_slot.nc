@@ -1,5 +1,5 @@
 ( Made using CamBam - http://www.cambam.co.uk )
-( X400mmT_slot 11/19/2021 7:08:25 PM )
+( X400mmT_slot 11/19/2021 7:43:32 PM )
 ( Post processor: Default )
 ( T0 : 10.0 )
 G21 G90 G64 G40
@@ -8,7 +8,7 @@ G0 Z3.0
 T0 M6
 ( Pocket1 )
 G17
-M3 S12000
+M3 S14000
 G4 X5
 G0 X9.0 Y9.0
 G0 Z1.0
