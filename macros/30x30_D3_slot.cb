@@ -47,7 +47,7 @@
           <RoughingClearance state="Default">0</RoughingClearance>
           <ClearancePlane state="Default">3</ClearancePlane>
           <SpindleDirection state="Default">CW</SpindleDirection>
-          <SpindleSpeed state="Value">24000</SpindleSpeed>
+          <SpindleSpeed state="Value">18000</SpindleSpeed>
           <SpindleRange state="Default">0</SpindleRange>
           <VelocityMode state="Default">Undefined</VelocityMode>
           <primitive>
@@ -60,7 +60,7 @@
           <ToolNumber state="Default">0</ToolNumber>
           <ToolProfile state="Default">Unspecified</ToolProfile>
           <PlungeFeedrate state="Value">40</PlungeFeedrate>
-          <CutFeedrate state="Value">220</CutFeedrate>
+          <CutFeedrate state="Value">300</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
           <StartPoint state="Default" />
           <CustomMOPHeader state="Default" />
