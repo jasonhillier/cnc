@@ -3,13 +3,13 @@
   <layers>
     <layer name="Default" color="127,255,0">
       <objects>
-        <rect id="1" Closed="true" w="20" h="500">
-          <ModificationCount>13</ModificationCount>
+        <rect id="1" Closed="true" w="20.5" h="500">
+          <ModificationCount>14</ModificationCount>
           <mat m="Identity" />
           <pts>
             <p>0,0,0</p>
-            <p>20,0,0</p>
-            <p>20,500,0</p>
+            <p>20.5,0,0</p>
+            <p>20.5,500,0</p>
             <p>0,500,0</p>
           </pts>
         </rect>
@@ -38,6 +38,8 @@
           <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
           <MillingDirection state="Default">Conventional</MillingDirection>
           <CollisionDetection state="Default">True</CollisionDetection>
+          <LeadInMove state="Default" />
+          <LeadOutMove state="Default" />
           <RegionFillStyle state="Default">InsideOutsideOffsets</RegionFillStyle>
           <FinishStepover state="Default">0</FinishStepover>
           <FinishStepoverAtTargetDepth state="Default">False</FinishStepoverAtTargetDepth>
@@ -60,6 +62,9 @@
           <PlungeFeedrate state="Value">40</PlungeFeedrate>
           <CutFeedrate state="Value">300</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
+          <StartPoint state="Default" />
+          <CustomMOPHeader state="Default" />
+          <CustomMOPFooter state="Default" />
           <Name>Pocket1</Name>
         </pocket>
       </machineops>
