@@ -3,13 +3,13 @@
   <layers>
     <layer name="Default" color="127,255,0">
       <objects>
-        <rect id="1" Closed="true" w="20.5" h="500">
-          <ModificationCount>14</ModificationCount>
+        <rect id="1" Closed="true" w="20" h="500">
+          <ModificationCount>15</ModificationCount>
           <mat m="Identity" />
           <pts>
             <p>0,0,0</p>
-            <p>20.5,0,0</p>
-            <p>20.5,500,0</p>
+            <p>20,0,0</p>
+            <p>20,500,0</p>
             <p>0,500,0</p>
           </pts>
         </rect>
@@ -34,7 +34,7 @@
           <DepthIncrement state="Value">1</DepthIncrement>
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">DepthFirst</CutOrdering>
-          <StepOver state="Default">0.4</StepOver>
+          <StepOver state="Default">0.1</StepOver>
           <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
           <MillingDirection state="Default">Conventional</MillingDirection>
           <CollisionDetection state="Default">True</CollisionDetection>
@@ -53,12 +53,13 @@
           <primitive>
             <prim>1</prim>
           </primitive>
+          <Style>3D finish</Style>
           <WorkPlane state="Default">XY</WorkPlane>
           <OptimisationMode state="Default">Experimental</OptimisationMode>
           <RoughingFinishing state="Default">Roughing</RoughingFinishing>
           <ToolDiameter state="Value">10</ToolDiameter>
           <ToolNumber state="Default">0</ToolNumber>
-          <ToolProfile state="Default">Unspecified</ToolProfile>
+          <ToolProfile state="Value">EndMill</ToolProfile>
           <PlungeFeedrate state="Value">40</PlungeFeedrate>
           <CutFeedrate state="Value">300</CutFeedrate>
           <MaxCrossoverDistance state="Default">0.7</MaxCrossoverDistance>
