@@ -3,8 +3,8 @@
   <layers>
     <layer name="Default" color="127,255,0">
       <objects>
-        <circle id="1" d="44.721359549995796">
-          <ModificationCount>0</ModificationCount>
+        <circle id="1" d="23">
+          <ModificationCount>1</ModificationCount>
           <mat m="Identity" />
         </circle>
       </objects>
@@ -12,6 +12,7 @@
     </layer>
   </layers>
   <MachiningOptions>
+    <OutFile>{$cbfile.name}.nc</OutFile>
     <Stock>
       <PMin>0,0</PMin>
       <PMax>0,0</PMax>
