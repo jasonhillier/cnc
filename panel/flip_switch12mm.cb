@@ -29,7 +29,7 @@
           <FinalDepthIncrement state="Default">0</FinalDepthIncrement>
           <CutOrdering state="Default">DepthFirst</CutOrdering>
           <CutWidth state="Default">0</CutWidth>
-          <StepOver state="Value">0.1</StepOver>
+          <StepOver state="Default">0.4</StepOver>
           <StepoverFeedrate state="Default">Plunge Feedrate</StepoverFeedrate>
           <InsideOutside state="Value">Inside</InsideOutside>
           <MillingDirection state="Default">Conventional</MillingDirection>
@@ -60,7 +60,7 @@
             <prim>1</prim>
           </primitive>
           <WorkPlane state="Default">XY</WorkPlane>
-          <OptimisationMode state="Default">Experimental</OptimisationMode>
+          <OptimisationMode state="Value">Standard</OptimisationMode>
           <RoughingFinishing state="Default">Roughing</RoughingFinishing>
           <ToolDiameter state="Value">3.1</ToolDiameter>
           <ToolNumber state="Default">0</ToolNumber>
