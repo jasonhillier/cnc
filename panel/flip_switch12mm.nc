@@ -1,5 +1,5 @@
 ( Made using CamBam - http://www.cambam.co.uk )
-( flip_switch12mm 12/9/2021 8:22:59 PM )
+( flip_switch12mm 12/9/2021 8:37:49 PM )
 ( Post processor: Default )
 ( T0 : 3.1 )
 G21 G90 G64 G40
@@ -8,7 +8,7 @@ G0 Z3.0
 T0 M6
 ( Profile1 )
 G17
-M3 S24000
+M3 S15000
 G0 X4.5 Y0.0
 G0 Z1.0
 G1 F40.0 Z-0.4
