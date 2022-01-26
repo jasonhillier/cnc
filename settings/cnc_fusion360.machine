@@ -3,9 +3,9 @@
 
   <vendor>Autodesk</vendor>
 
-  <model>Generic 3-axis</model>
+  <model>GARAGE CNC</model>
 
-  <description>This machine has XY axis on the Table and Z axis on the Head</description>
+  <description>GARAGE CNC</description>
 
   <control></control>
 
@@ -22,7 +22,7 @@
   <controllerConfigurations></controllerConfigurations>
 
   <fusion>
-    <model>urn:adsk.wipprod:fs.file:vf.DlSlkuVaTyqfF9izyY1UeQ?version=1</model>
+    <model>urn:adsk.wipprod:fs.file:vf.DlSlkuVaTyqfF9izyY1UeQ?version=2</model>
   </fusion>
 
   <custom>
@@ -60,7 +60,7 @@
     </postProperties>
     <setupSheet></setupSheet>
     <setupSheetProperties/>
-    <outputFolder>C:\Users\j450n\AppData\Local\Fusion 360 CAM\nc</outputFolder>
+    <outputFolder>C:/Users/j450n/AppData/Local/Fusion 360 CAM/nc</outputFolder>
   </post>
 
   <axis actuator="linear" coordinate="Z" homePosition="0mm" id="Z" link="head" maximumFeed="0mm/min" name="" offset="0mm 0mm 0mm" range="-700mm 0mm" rapidFeed="0mm/min" resolution="0mm"/>
