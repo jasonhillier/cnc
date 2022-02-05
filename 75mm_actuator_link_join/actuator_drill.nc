@@ -1,0 +1,43 @@
+(actuator_drill)
+(Machine)
+(  vendor: Autodesk)
+(  model: GARAGE CNC)
+(  description: GARAGE CNC)
+(T1  D=4.78 CR=2.39 - ZMIN=-8 - ball end mill)
+G90 G94
+G17
+G21
+G28 G91 Z0
+G90
+
+(Drill1)
+T1
+S24000 M3
+G54
+M8
+G0 X100.008 Y25.064
+Z16
+Z6
+Z5
+G1 Z-8 F16.7
+G0 Z6
+X88.008 Y37.064
+Z5
+G1 Z-8 F16.7
+G0 Z6
+X100.008 Y49.064
+Z5
+G1 Z-8 F16.7
+G0 Z6
+X112.008 Y37.064
+Z5
+G1 Z-8 F16.7
+G0 Z6
+Z16
+M9
+G28 G91 Z0
+G90
+G28 G91 X0 Y0
+G90
+M5
+M30
