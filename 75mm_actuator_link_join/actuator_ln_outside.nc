@@ -16,7 +16,7 @@ G90
 
 (2D Contour_outline)
 T2
-S19000 M3
+S24000 M3
 G54
 M8
 G0 X38.699 Y-4.08
