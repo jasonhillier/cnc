@@ -1,4 +1,8 @@
 (actuator_ln_drill)
+(Machine)
+(  vendor: Autodesk)
+(  model: Generic 3-axis)
+(  description: This machine has XY axis on the Table and Z axis on the Head)
 (T1  D=4.78 CR=2.39 - ZMIN=-9 - ball end mill)
 G90 G94
 G17
