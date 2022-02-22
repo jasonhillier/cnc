@@ -1,4 +1,4 @@
-(metal_coupler_8mm)
+(metal_coupler_8mm_wdrill)
 (Machine)
 (  vendor: Autodesk)
 (  model: Generic 3-axis)
@@ -1266,13 +1266,34 @@ X10.149 Y22.474 Z-9.783
 X10.129 Y22.521 Z-9.706
 X10.112 Y22.553 Z-9.524
 Z10
+
+(Drill1)
+G0 X26.75 Y26.75
+Z10
+Z5
+Z-5
+G1 Z-14 F25
+G0 Z5
+X9.25
+Z-5
+G1 Z-14 F25
+G0 Z5
+Y9.25
+Z-5
+G1 Z-14 F25
+G0 Z5
+X26.75
+Z-5
+G1 Z-14 F25
+G0 Z5
+Z10
 (When using Fusion 360 for Personal Use, the feedrate of)
 (rapid moves is reduced to match the feedrate of cutting)
 (moves, which can increase machining time. Unrestricted rapid)
 (moves are available with a Fusion 360 Subscription.)
 
 (2D Contour5)
-G0 X18.476 Y-2.808
+X18.476 Y-2.808
 G1 Z10 F150
 Z5
 Z1.6 F25
