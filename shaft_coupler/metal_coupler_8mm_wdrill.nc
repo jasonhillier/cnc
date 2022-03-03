@@ -2600,7 +2600,9 @@ Z10
 (  model: Generic 3-axis)
 (  description: This machine has XY axis on the Table and Z axis on the Head)
 (T1  D=2 CR=0 - ZMIN=-14 - flat end mill)
+M5
 M0
+
 G90 G94
 G17
 G21
@@ -2871,7 +2873,9 @@ X25.75 Y9.25 I-1 J0
 G1 X26.75
 G0 Z5
 Z10
+M5
 M0
+M3
 
 (2D Contour5)
 G0 X18.476 Y-2.808
