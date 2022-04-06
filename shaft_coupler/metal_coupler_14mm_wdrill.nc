@@ -11,8 +11,6 @@ G21
 (rapid moves is reduced to match the feedrate of cutting)
 (moves, which can increase machining time. Unrestricted rapid)
 (moves are available with a Fusion 360 Subscription.)
-G91 Z0
-G90
 
 (2D Pocket3)
 T1
@@ -2864,9 +2862,5 @@ G19 G2 Y-2.76 Z-13.53 J0 K0.47
 G1 Z10
 G17
 M9
-G28 G91 Z0
-G90
-G28 G91 X0 Y0
-G90
 M5
 M30
