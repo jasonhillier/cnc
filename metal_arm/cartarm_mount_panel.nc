@@ -10,81 +10,20 @@ G21
 (-Attention- Property Safe Retracts is set to Clearance Height.)
 (Ensure the clearance height will clear the part and or fixtures.)
 (Raise the Z-axis to a safe height before starting the program.)
-
-(Drill1)
-T1
-S24000 M3
-G17 G90 G94
-G54
-M8
-G0 X53.2 Y52.4
-Z15
-G0 Z5
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X103.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X153.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X203.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X253.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X243.2 Y112.4
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X163.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-Y192.4
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X243.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X253.2 Y252.4
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X203.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X153.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X103.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-X53.2
-Z4
-G1 Z-4.5 F50
-G0 Z5
-Z15
 (When using Fusion for Personal Use, the feedrate of rapid)
 (moves is reduced to match the feedrate of cutting moves,)
 (which can increase machining time. Unrestricted rapid moves)
 (are available with a Fusion Subscription.)
 
 (2D Contour1)
+T1
+S24000 M3
+G17 G90 G94
+G54
+M8
 G0 X236.36 Y153.214
-G1 Z15 F150
-Z5
+Z15
+G1 Z5 F150
 Z0.952 F50
 Z-0.3
 G3 X170.04 Y151.586 I-33.16 J-0.814 F150
