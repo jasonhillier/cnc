@@ -1,0 +1,118 @@
+( Made using CamBam - http://www.cambam.co.uk )
+( drill 11/10/2021 3:28:19 PM )
+( Post processor: Default )
+( T0 : 0.0 )
+G21
+G90
+G64
+G40
+G0 Z3.0
+( T0 : 0.0 )
+T0 M6
+( Drill1 )
+G17
+M3 S16000
+
+
+G0 X0.0 Y0.0 Z0.0
+
+( move relative )
+G91
+
+( peck -1mm )
+( engage slowly )
+G01 Z-0.1 F10
+G04 500
+G0 Z-3.0
+G0 Z3.0
+G01 Z-0.1 F10
+G04 500
+G0 Z3.0
+
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+
+( peck -1mm )
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+
+( peck -1mm )
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+
+( peck -1mm )
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+G0 Z-3.0
+G01 Z-0.2 F10
+G04 500
+G0 Z3.0
+
+G90
+G0 Z6.0
+M5
+M30
