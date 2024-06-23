@@ -13,7 +13,7 @@ axes:
     #SF1605 (5mm lead) 1600/5=320
     soft_limits: false
     steps_per_mm: 320
-    max_rate_mm_per_min: 500
+    max_rate_mm_per_min: 1000
     acceleration_mm_per_sec2: 200
     max_travel_mm: 500
     homing:
@@ -36,7 +36,7 @@ axes:
   y:
     soft_limits: false
     steps_per_mm: 320
-    max_rate_mm_per_min: 500
+    max_rate_mm_per_min: 1000
     acceleration_mm_per_sec2: 100
     max_travel_mm: 500
     homing:
@@ -162,7 +162,7 @@ start:
 PWM:
   pwm_hz: 3000
   output_pin: gpio.25
-  enable_pin: gpio.39
+  enable_pin: i2so.27
   direction_pin: NO_PIN
   disable_with_s0: false
   s0_with_disable: true
