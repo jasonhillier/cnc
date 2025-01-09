@@ -9,11 +9,14 @@ T0 M6
 ( Profile1 )
 G17
 G0 X0.0 Y0.0
-G0 Z0.0
+G0 Z1.0
 M3 S9000
 G91
 
-G1 F40
+G1 F200
+Z-1.0
+
+G1 F500
 
 ( repeat horizontal move 11.44 times (515/45) )
 G1 X515.0
