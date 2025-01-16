@@ -1,4 +1,4 @@
-( macro to 12" length in acrylic )
+( macro to 12" length in acrylic with 1/4"Dia single flute )
 ( Post processor: Default )
 ( T0 : 0.0 )
 G21
