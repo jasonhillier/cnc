@@ -1,5 +1,4 @@
-( Made using CamBam - http://www.cambam.co.uk )
-( drill 11/10/2021 3:28:19 PM )
+( macro to 12" length in acrylic )
 ( Post processor: Default )
 ( T0 : 0.0 )
 G21
