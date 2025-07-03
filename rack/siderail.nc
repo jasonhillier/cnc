@@ -15,6 +15,9 @@ G21
 (which can increase machining time. Unrestricted rapid moves)
 (are available with a Fusion Subscription.)
 
+( set G55 location for 2nd copy )
+G10 L2 P2 X39 Y0 Z0
+
 (2D Contour1)
 T1
 S21000 M3
