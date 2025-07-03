@@ -16,7 +16,7 @@ G21
 (are available with a Fusion Subscription.)
 
 ( set G55 location for 2nd copy )
-G10 L2 P2 X39 Y0 Z0
+G10 L2 P2 X50 Y0 Z0
 
 (2D Contour1)
 T1
