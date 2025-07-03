@@ -16,7 +16,11 @@ G21
 (are available with a Fusion Subscription.)
 
 ( set G55 location for 2nd copy )
+G0 X0 Y0 Z0
+G91
 G10 L2 P2 X50 Y0 Z0
+G90
+Z10
 
 (2D Contour1)
 T1
@@ -157,41 +161,7 @@ G1 Z10
 (which can increase machining time. Unrestricted rapid moves)
 (are available with a Fusion Subscription.)
 
-(2D Contour4)
-G0 X-2.087 Y104.27
-G1 Z10 F200
-Z0.952
-Z-0.074 F66.7
-X-2.082 Y104.265 Z-0.157 F25
-X-2.067 Y104.25 Z-0.237
-X-2.042 Y104.225 Z-0.312
-X-2.009 Y104.191 Z-0.38
-X-1.967 Y104.15 Z-0.439
-X-1.919 Y104.102 Z-0.486
-X-1.866 Y104.049 Z-0.521
-X-1.809 Y103.992 Z-0.543
-X-1.751 Y103.934 Z-0.55
-X-0.337 Y102.519
-G3 X0 Y102.38 I0.337 J0.337
-G1 X44.45 F200
-G3 X44.787 Y102.519 I0 J0.476
-G1 X46.201 Y103.934
-X46.259 Y103.992 Z-0.543
-X46.316 Y104.049 Z-0.521
-X46.369 Y104.102 Z-0.486
-X46.417 Y104.15 Z-0.439
-X46.459 Y104.191 Z-0.38
-X46.492 Y104.225 Z-0.312
-X46.517 Y104.25 Z-0.237
-X46.532 Y104.265 Z-0.157
-X46.537 Y104.27 Z-0.074
-Z10
-(When using Fusion for Personal Use, the feedrate of rapid)
-(moves is reduced to match the feedrate of cutting moves,)
-(which can increase machining time. Unrestricted rapid moves)
-(are available with a Fusion Subscription.)
-
-(2D Contour2)
+(outer profile)
 G0 X48.72 Y202.087
 G1 Z10 F200
 Z0.952
@@ -391,41 +361,7 @@ G1 Z10
 (which can increase machining time. Unrestricted rapid moves)
 (are available with a Fusion Subscription.)
 
-(2D Contour4)
-G0 X-2.087 Y104.27
-G1 Z10 F200
-Z0.952
-Z-0.074 F66.7
-X-2.082 Y104.265 Z-0.157 F25
-X-2.067 Y104.25 Z-0.237
-X-2.042 Y104.225 Z-0.312
-X-2.009 Y104.191 Z-0.38
-X-1.967 Y104.15 Z-0.439
-X-1.919 Y104.102 Z-0.486
-X-1.866 Y104.049 Z-0.521
-X-1.809 Y103.992 Z-0.543
-X-1.751 Y103.934 Z-0.55
-X-0.337 Y102.519
-G3 X0 Y102.38 I0.337 J0.337
-G1 X44.45 F200
-G3 X44.787 Y102.519 I0 J0.476
-G1 X46.201 Y103.934
-X46.259 Y103.992 Z-0.543
-X46.316 Y104.049 Z-0.521
-X46.369 Y104.102 Z-0.486
-X46.417 Y104.15 Z-0.439
-X46.459 Y104.191 Z-0.38
-X46.492 Y104.225 Z-0.312
-X46.517 Y104.25 Z-0.237
-X46.532 Y104.265 Z-0.157
-X46.537 Y104.27 Z-0.074
-Z10
-(When using Fusion for Personal Use, the feedrate of rapid)
-(moves is reduced to match the feedrate of cutting moves,)
-(which can increase machining time. Unrestricted rapid moves)
-(are available with a Fusion Subscription.)
-
-(2D Contour2)
+(outer profile)
 G0 X48.72 Y202.087
 G1 Z10 F200
 Z0.952
